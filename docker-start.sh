@@ -2,6 +2,8 @@
 
 docker-compose up -d nginx mysql phpmyadmin portainer mailhog
 
+# docker-compose build --no-cache nginx php-fpm mysql phpmyadmin workspace portainer mailhog
+
 #------------------------------------------------
 # If you have trouble logging into PhpMyAdmin
 #------------------------------------------------
