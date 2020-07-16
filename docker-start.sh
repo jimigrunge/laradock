@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker-compose up -d nginx mysql phpmyadmin portainer mailhog
+docker-compose up -d nginx mysql phpmyadmin portainer mailhog mongo
 
 # docker-compose build --no-cache nginx php-fpm mysql phpmyadmin workspace portainer mailhog
 
